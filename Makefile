@@ -14,10 +14,11 @@ clean:
 	$(RM) src/demos/*/*.o
 	$(RM) src/demos/*.o
 	$(RM) $(DEMOS)
+	$(RM) libcyclon.dylib
 
 $(DEMOS): $(CYCLONEOBJS) $(COMMONOBJS)
 	$(CXX) $(CXXFLAGS) -c -o src/demos/$@/$@.o src/demos/$@/$@.cpp
 	$(CXX) -o $@ $^ src/demos/$@/$@.o $(LDFLAGS)
 
-
-
+dylib: $(CYCLONEOBJS)
+	$(CXX) -dynamiclib -o libcyclon.dylib $(CYCLONEOBJS)
