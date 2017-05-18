@@ -50,7 +50,6 @@
 		383EBD861ECDB4050087ABF7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../src/demos/main.cpp; sourceTree = "<group>"; };
 		383EBD881ECDB4050087ABF7 /* timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timing.cpp; path = ../../src/demos/timing.cpp; sourceTree = "<group>"; };
 		383EBD891ECDB4050087ABF7 /* timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timing.h; path = ../../src/demos/timing.h; sourceTree = "<group>"; };
-		383EBD901ECDB8A90087ABF7 /* ogl_headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogl_headers.h; path = ../../src/demos/ogl_headers.h; sourceTree = "<group>"; };
 		383EBD911ECDB8DE0087ABF7 /* body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = body.cpp; path = ../../src/body.cpp; sourceTree = "<group>"; };
 		383EBD921ECDB8DE0087ABF7 /* collide_coarse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = collide_coarse.cpp; path = ../../src/collide_coarse.cpp; sourceTree = "<group>"; };
 		383EBD931ECDB8DE0087ABF7 /* collide_fine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = collide_fine.cpp; path = ../../src/collide_fine.cpp; sourceTree = "<group>"; };
@@ -120,7 +119,6 @@
 		383EBD831ECDB3E20087ABF7 /* demo */ = {
 			isa = PBXGroup;
 			children = (
-				383EBD901ECDB8A90087ABF7 /* ogl_headers.h */,
 				383EBD841ECDB4050087ABF7 /* app.cpp */,
 				383EBD851ECDB4050087ABF7 /* app.h */,
 				383EBD861ECDB4050087ABF7 /* main.cpp */,
